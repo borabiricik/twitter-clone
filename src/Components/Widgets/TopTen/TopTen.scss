@@ -1,0 +1,29 @@
+.toptenCard{
+    border-radius: 1rem!important;
+    background-color: #F7F9FA;
+    .toptenHeader{
+        font-family: FreeSansBold;
+        font-size: 1.175rem;
+        border:none;
+        padding: 1rem;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.05);
+        padding: 1rem;
+    }
+
+    .card-text{
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.05);
+        padding: 1.5rem 1rem;
+        &:nth-last-child(1){
+            border: none;
+        }
+        &:hover{
+            cursor: pointer;
+            background-color: #EFF1F2;
+        }
+    }
+    .showMoreBtn{
+        color: #1a91da;
+        text-decoration: none;
+    }
+}
+

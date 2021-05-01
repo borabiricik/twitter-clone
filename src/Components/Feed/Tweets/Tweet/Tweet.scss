@@ -1,0 +1,103 @@
+.tweetCard{
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+    padding: 0 1rem;
+    padding-top: 0.75rem;
+    
+
+    cursor: pointer;
+    position: relative;
+    &:hover{
+        background-color: #F7F7F7;
+        .card-link{
+            background-color: #F7F7F7;
+        }
+    }
+    .tweetUsernameText{
+        margin-left: 0.25rem;
+        color: rgba($color: #000000, $alpha: 0.5);
+        font-size: .90rem;
+        font-family: FreeSans;
+    }
+    .tweetPPic{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-right: 0.5rem;
+    }
+
+    .tweetText{
+        font-family: FreeSans;
+        margin-top: .25rem;
+        
+    }
+    .tweetMoreIcon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 2rem;
+        padding: .50rem;
+        color: rgba($color: #000000, $alpha: 0.5);
+        border-radius: 50%;
+        &:hover{
+            background-color: #E1EEF7;
+            color: #1a91da;
+        }
+    }
+
+    .tweetDateAdded{
+        margin-left: 0.5rem;
+        font-family: FreeSans;
+        color: rgba($color: #000000, $alpha: 0.5);
+        font-size: 0.90rem;
+    }
+
+    .tweetFooterBtn{
+        font-size: 2rem;
+        padding: .50rem;
+        width: 2rem;
+        height: 2rem;
+        color: rgba($color: #000000, $alpha: 0.5);
+        border-radius: 50%;
+        &:hover{
+            background-color: #E1EEF7;
+            color: #1a91da;
+            .tweetFooterBtnText{
+                color: #1a91da;
+            }
+        }
+    }
+
+    .tweetFooterBtnRT{
+        @extend .tweetFooterBtn;
+        
+        &:hover{
+            background-color: #E0F1E8;
+            color: #17BF63;
+        }
+    }
+
+    .tweetFooterBtnText{
+        color: rgba($color: #000000, $alpha: 0.5);
+        font-size: .75rem
+    }
+
+    .tweetFooterBtnLike{
+        @extend .tweetFooterBtn;
+        &:hover{
+            background-color: #F5E2E8;
+            color: #E44878;
+        }
+    }
+
+
+}
+
+.card{
+    border:none!important;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1)!important;
+    border-radius: unset!important;
+    .card-footer{
+        background-color: transparent;
+        border: none;
+    }
+}

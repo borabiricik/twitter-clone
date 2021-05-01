@@ -1,0 +1,11 @@
+@import "../Widgets/WhoToFollow/WhoToFollow.scss";
+
+.more-btn{
+    border:none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover{
+        background-color: #E1EEF7;
+    }
+}

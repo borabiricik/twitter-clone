@@ -1,0 +1,86 @@
+
+.sidebar{
+    padding-top: 10px;
+    height: 100vh;
+    .sidebarBtn{
+        background-color: transparent;
+        white-space: nowrap;
+        border: none;
+        color: black;
+        font-size:2rem!important;
+        border-radius: 50px;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        padding: 0.75rem;
+        margin-bottom: 0.25rem;
+        
+        &:hover{
+            background-color: #E8F5FE;
+            cursor: pointer;
+            color:#1a91da;
+            transition: all 0;
+            svg{
+                color:#1a91da;
+                transition: all 0;
+
+            }
+        }
+        &:focus{
+            p{
+                font-weight: bolder;
+            }
+        }
+        p{
+            background-color: transparent;
+            margin: 0;
+            font-size: 1.25rem;
+            
+        }
+        svg{
+            background-color: transparent;
+            color: black;
+            font-size:30px;
+            white-space: nowrap;
+            &:hover{
+                background-color: #E8F5FE;
+            }
+        }
+        
+    }
+
+    
+}
+
+.twitterBtn{
+    font-size: 2rem;
+    background-color: transparent;
+    svg{
+        font-size: 2rem;
+        color: #1a91da;
+        
+    }
+}
+
+@media screen and (max-width:768px ) {
+    .sidebar{
+        .sidebarBtn{
+            border-radius: 50%!important;
+            padding: .35rem!important;
+    
+            svg{
+                border-radius: 50%;
+                padding: 0!important;
+            }
+        }
+    
+        .tweeterBtn{
+            border-radius: 50%;
+            width: 3rem;
+
+            
+            margin:0;
+            
+        }
+    }
+    
+}

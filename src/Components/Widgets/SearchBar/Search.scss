@@ -1,0 +1,28 @@
+.searchBar{
+    border-radius: 50px;
+    position: relative;
+    padding-left: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    background-color: #F7F9FA;
+    border: 1px solid transparent;
+    &::placeholder{
+        color: rgba($color: #000000, $alpha: 0.5);
+        font-family: FreeSans;
+
+    }
+    &:focus{
+        border: 1px solid #1a91da;
+        box-shadow: none;
+    }
+}
+
+.searchIcon{
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.searchIconWrapper{
+    position: absolute;
+    top: 1rem;
+    left: 1.75rem;
+}

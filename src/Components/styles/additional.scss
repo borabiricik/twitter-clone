@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'mainFont';
+    src: url("../fonts/FreeSans.ttf");
+}
+
+@font-face {
+    font-family: 'mainFontBold';
+    src: url("../fonts/FreeSansBold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: mainFontBold;
+    transition: all 0.15s;
+    background-color: white;
+    background-color: transparent;
+    &:focus,&:hover{
+        outline: none;
+    }
+}
+
+body{
+    position: relative;
+}
+
+
